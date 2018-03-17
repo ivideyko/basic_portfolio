@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <title>Ian Videyko - About Me</title>
+  <title>Ian Videyko - Contact Me</title>
 </head>
 <body>
     
@@ -28,13 +28,26 @@
     
   <!-- PAGE CONTENT -->
   <div id="content_wrapper">
+
     <div id="content">
-      <h1>About Me</h1>
+      <h1>Contact</h1>
       <hr>
-      <a href="#">
-        <img id="profile_pic" src="assets/images/my_wicked_old_dirty_smelly_kimmie_dog_and_her_ian_person.jpg">
-      </a>
-      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+      <div id="form_container">
+        <form action="#">
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Your E-mail..">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+          <input id="submit" type="submit" value="Submit">
+      
+        </form>
+      </div>
     </div>
 
     <!-- SIDEBAR -->
@@ -45,9 +58,9 @@
       <img src="assets/images/connect_with_me.jpg">
       </a>
     </div>
-  
+
   </div>
-  
+
   <!-- FOOTER -->
   <div id="footer">&copy; 2018 Ian Videyko</div>
 
